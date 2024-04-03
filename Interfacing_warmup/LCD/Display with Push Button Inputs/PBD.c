@@ -1,6 +1,3 @@
-//This Arduino code utilizes the LiquidCrystal library to interface with an LCD display. It initializes the LCD with specified pin connections and sets up two push buttons as inputs with internal pull-up resistors enabled. The main loop continuously clears the LCD display and prints different strings followed by their corresponding identifiers on separate lines, with a 2-second delay between each display. Additionally, it seems to control two output pins labeled l and l2, though their purpose isn't explicitly mentioned in the code.
-  
-
 #include <LiquidCrystal.h>   // Including the LiquidCrystal library for interfacing with LCD
 int rs=0, en=1, d4=2, d5=3, d6=4, d7=5, s2=10, s=11, l2=12, l=13; // Assigning pin numbers for LCD and push buttons
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);   // Creating an LCD object with specified pin connections

@@ -21,8 +21,8 @@ void loop() {
   // Set the cursor to the beginning of the second line
   lcd.setCursor(0, 1);
   
-  // Print "To My Profile" on the second line
-  lcd.print("To My Profile");
+  // Print "To My World" on the second line
+  lcd.print("To My World");
   
   // Delay for 2 seconds
   delay(2000);
